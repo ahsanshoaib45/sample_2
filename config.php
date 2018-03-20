@@ -4,7 +4,7 @@ ob_start();
 session_start();
 
 define('DB_DRIVER', 'mysql');//added just//
-define('DB_SERVER', 'localhost');
+define('DB_SERVER', 'localhost');//second added//
 define('DB_SERVER_USERNAME', 'root');
 define('DB_SERVER_PASSWORD', '');
 define('DB_DATABASE', 'role_manage');
