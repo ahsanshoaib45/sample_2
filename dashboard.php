@@ -1,5 +1,5 @@
 <?php
-require_once("config.php");
+require_once("config.php");//push it on server//
 if (!isset($_SESSION["user_id"]) || $_SESSION["user_id"] == "") {
     // not logged in send to login page
     redirect("index.php");
