@@ -3,7 +3,7 @@ error_reporting( E_ALL & ~E_DEPRECATED & ~E_NOTICE );
 ob_start();
 session_start();
 
-define('DB_DRIVER', 'mysql');
+define('DB_DRIVER', 'mysql');//added just//
 define('DB_SERVER', 'localhost');
 define('DB_SERVER_USERNAME', 'root');
 define('DB_SERVER_PASSWORD', '');
