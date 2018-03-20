@@ -3,11 +3,11 @@ error_reporting( E_ALL & ~E_DEPRECATED & ~E_NOTICE );
 ob_start();
 session_start();
 
-define('DB_DRIVER', 'mysql');//
-define('DB_SERVER', 'localhost');//
-define('DB_SERVER_USERNAME', 'root');//
-define('DB_SERVER_PASSWORD', '');//
-define('DB_DATABASE', 'role_manage');//
+define('DB_DRIVER', 'mysql');
+define('DB_SERVER', 'localhost');
+define('DB_SERVER_USERNAME', 'root');
+define('DB_SERVER_PASSWORD', '');
+define('DB_DATABASE', 'role_manage');
 
 
 define('PROJECT_NAME', 'Create Multi admin using php mysql and bootstrap library');
